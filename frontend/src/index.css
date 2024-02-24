@@ -1,0 +1,114 @@
+:root {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center items horizontally */
+  height: 100vh;
+}
+
+.form-task {
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  gap: 15px;
+  margin: 15px;
+}
+
+input {
+  margin-right: 10px;
+  border-radius: 5px;
+  height: 32px;
+  border: 1px solid #ccc; /* Added border */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+a {
+  color: #006400; /* Dark green */
+  text-decoration: none;
+}
+a:hover {
+  color: #228b22; /* Light green */
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f0f8ff; /* Light blue background */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+h1 {
+  font-size: 2em; /* Reduced font size */
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: #008000; /* Green */
+  color: #fff; /* White text */
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+.delete-btn {
+  background-color: red;
+}
+
+.cancel-btn {
+  background-color: grey; /* Orange red */
+}
+
+button:hover {
+  background-color: #32cd32; /* Light green on hover */
+}
+
+.cancel-btn:hover {
+  background-color: ; /* Orange red on hover */
+}
+.delete-btn:hover {
+  background-color: orangered; /* Red on hover */
+}
+
+button:focus,
+button:focus-visible {
+  outline: none;
+}
+
+.strike-through {
+  text-decoration: line-through;
+  color: orangered;
+}
+
