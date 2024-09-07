@@ -1,5 +1,5 @@
     # Used postgres:latest as base image
-    FROM postgres:latest
+    FROM postgres:16.4-bookworm
 
     # Set the working directory
     COPY .env /app/db/.env
