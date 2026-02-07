@@ -1,5 +1,5 @@
     # Used postgres:latest as base image
-    FROM postgres:latest
+    FROM postgres:18.1-trixie
 
     # Set the working directory
     COPY .env /app/db/.env
